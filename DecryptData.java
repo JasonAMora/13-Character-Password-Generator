@@ -32,7 +32,7 @@ class DecryptData
 		System.out.println(); 
 		
 		
-		// We can have the user input an arbitrary password or enter the password that the user initially intended.
+		// Lets the user input any string of lenght 13
 //		String string;
 		String string = "fl38Cd%mr.ypJ";
 
