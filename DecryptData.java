@@ -28,8 +28,6 @@ class DecryptData
 		System.out.println("\t  Scenario 1");
 		System.out.println();
 		System.out.println("*************************");
-		System.out.println();
-		System.out.println(); 
 		
 		
 		// Lets the user input any string of lenght 13
