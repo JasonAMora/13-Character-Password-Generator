@@ -52,8 +52,6 @@ def findMax(A):
 
 
 
-
-
 ## Creating a function that will perform matrix multiplication
 ## @param: any two matricies where A is n x m and B is m x p
 ## @return: a new matrix of size n x p
@@ -75,10 +73,6 @@ def matrixMult(A,B):
 	
 	return C
 ## End
-
-
-
-
 
 
 
@@ -156,7 +150,7 @@ def correctErrors(E,W):
 ## @param: password string, number of passwords desired, array of syndromes
 ## @return: list of generated passwords
 def generatePasswords(s,n,S):
-	str = "' \"!#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~';"
+	str = "'\"!#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~';"
 	passwordList = []
 	passwordSet = set()
 	syndArray = convertToStrArray(S)
@@ -195,7 +189,7 @@ def parsedToString(W):
 ## End
 
 
-
+## Creating a function that will 
 
 #### End of list of functions ####
 
@@ -290,8 +284,6 @@ print
 newSyndrome = matrixMult(N,H)
 
 
-print newSyndrome
-print
 print
 print
 
@@ -316,4 +308,3 @@ for index in passwordList:
 ## Creates space between inputs
 print
 print
-
