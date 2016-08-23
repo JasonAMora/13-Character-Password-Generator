@@ -1,7 +1,11 @@
 # 13-Character-Password-Generator
   
-User encrypted data and entered the following password : fl38Cd%mr.ypJ .
-The password the user entered is incorrect and it can be assumed that the character count is 13, since the user intentaionally wrote a password 
-of such length. The task is to use a brute force method, generate a list of passwords that have the maximum likelihood of decrypting the data.
 
+Problem:
+Person sent important information but forgot the password used to encrypt the
+data. Now the receiver wants to decrypt data, but cannot due to an incorrect password received to retrieve the data.
+Task: Generate a list of possible passwords that is not the one use entered (the password given) for the user to try to decrypt his data.
+Givens:
+1. The passcode used: fl38Cd%mr.ypJ
+2. Generate passwords that are not the given one.
 
